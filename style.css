@@ -2,27 +2,70 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: #FAFAFA;
+}
+
+/***TEXT obecné***/
+h1, h2, p {
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 h2 {
-    text-align: center;
+    margin-top: 60px;
 }
 
-p {text-align: center;
-
+p {
+    margin: 30px auto;
 }
 
-
+/***OKRAJ***/
 .container {
-    width: 500px;
-    margin: 0 auto;
-    padding: 30px;
+    padding: 60px 30px;
 }
 
-img {
-    width: 350px;
+/***HERO***/
+.hero {
+    display: flex;
+    justify-content: center;
 }
+
+/***ČÁRA***/
+hr {
+    width: 60px;
+    border: 1px solid #407BFF;
+    margin: 0 auto;
+}
+
+/***TLAČÍTKA***/
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.one {
+    width: 195px;
+}
+
+.two {
+    width: 220px;
+}
+
+/***PANELY***/
+.panel {
+    padding: 20px;
+    display: flex;
+}
+

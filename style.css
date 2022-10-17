@@ -69,6 +69,7 @@ hr {
     color: #fff;
     font-size: 14px;
     letter-spacing: 0.7px;
+
 }
 
 .one {
@@ -183,6 +184,10 @@ hr {
 
     h1, p {
         text-align: left;
+    }
+
+    .intro p {
+        margin-left: 0;
     }
 
     hr {
